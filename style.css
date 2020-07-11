@@ -1,0 +1,61 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#watch {
+    padding: 5% 0;
+   
+}
+
+#watch .col-md-6 {
+    background-color: rgb(68, 142, 172);
+    padding: 20px;
+    border-radius: 25%;
+}
+
+.time {
+    margin: 20px 0;
+}
+
+.timer .time span {
+    display: inline-block;
+     width: 24%;
+}
+
+.timer .time span h1 {
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top:0 ;
+    border-radius: 40%;
+    width: 32%;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-sm-lg {
+        width: 100%;
+        margin-top: 10px;
+        padding: 2px auto;
+    }
+
+    #watch {
+        padding-top: 15%;
+    }
+
+    #watch .col-md-6 {
+        margin: 10px;
+    }
+
+    .timer .time span {
+        width: 23%;
+    }
+
+    .timer .time span h1 {
+        text-align: center;
+    }
+
+}
